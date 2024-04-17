@@ -1,0 +1,11 @@
+name: gs-studio
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - plyfile
+  - python=3.11.8
+  - pip=22.3.1
+  - pip:
+    - streamlit
